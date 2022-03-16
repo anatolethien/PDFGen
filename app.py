@@ -9,6 +9,7 @@ CHROME_PATH = '/opt/google/chrome/chrome' # linux
 #     'first_name': 'Jean',
 #     'last_name': 'Martin',
 #     'sex': 'm'
+#     'rank': sex.to_rank(),
 #     'address': '14 rue de la Paix',
 #     'postal_code': '31000',
 #     'city': 'Toulouse',
