@@ -3,15 +3,141 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.4.4/css/pico.min.css">
-		<title>Contrat</title>
+		<title>Contrat de mandat</title>
 	</head>
 	<body>
 		<header class="container">
-			<strong>NAB</strong>
-			<h1>Contrat</h1>
+			<h1>CONTRAT DE MANDAT</h1>
 		</header>
 		<main class="container">
-			<p>Ceci est un contrat</p>
+			<p>ENTRE LES SOUSSIGNÉS :</p>
+      <p>Monsieur YAICHE Elior, auto-entrepreneur,
+      dont le siège social est situé 7 RUE PAUL BERT 92240 MALAKOFF,
+      immatriculé sous le numéro 889 192 431</p>
+      <p>(ci-après désigné "le Mandataire")</p>
+      <p>ET</p>
+      <p>Monsieur {{ last_name }} {{ first_name }}, auto-entrepreneur,
+      dont le siège social est situé,
+      {{ address }} {{ postal_code }} {{ city }},
+      immatriculé sous le numéro {{ siren }}</p>
+      <p>(ci-après désigné "le Mandant")</p>
+      <p>Ensemble dénomées "les Parties" et individuellement "une Partie"</p>
+      <p>ÉTANT PRÉALABLEMENT RAPPELÉ CE QUI SUIT</p>
+      <p>Le Mandataire est une société ayant pour activité le conseil en
+      relations publiques et communications.</p>
+      <p>Le Mandant est un auto-entrepreneur ayant pour activité :
+      {{ activity }} (APE).</p>
+      <p>Après avoir négocié ensemble les termes de leur collaboration, les</p>
+      Parties ont décidé de conclure le présent contrat afin de formuler les
+      conditions et modalités de cette collaboration
+      (ci-après désigné "le Contrat").
+      <p>LES PARTIES ONT CONVENU CE QUI SUIT :</p>
+      <p><strong>Article 1. Objet</strong></p>
+      <p>Le présent Contrat définit les conditions dans lesquelles le Mandant
+      confie au Mandataire la représentation, la promotion et la vente des
+      services du Mandant.</p>
+      <p>Le mandat est confié pour la vente des produits et services
+      listés ci-après :</p>
+      <!-- utiliser une boucle pour lister les compétences avec le moteur de template -->
+      <p>{{ jobs[0] }} + {{ skills[0] }}</p>
+      <p>{{ jobs[1] }} + {{ skills[1] }}</p>
+      <p>Ce contrat ne crée en aucun cas des liens de subordination entre
+      le Mandataire et le Mandant.</p>
+      <p><strong>Article 2. Durée du Mandat</strong></p>
+      <p>Le Mandat est donné à compter de la signature du présent contrat et
+      pour une durée de 3 (trois) ans.</p>
+      <p>Il est tacitement renouvelable dans les mêmes conditions, sauf
+      dénonciation écrite par l’une des Parties, 3 (trois) mois avant la fin
+      de la durée de 3 (trois) ans.</p>
+      <p>En cas de dénonciation écrite par l’une des Parties alors qu’un contrat
+      de prestation signé entre le Mandant, le Mandataire et un client est en
+      cours d’exécution, les Parties s’engagent à respecter les conditions du
+      contrat de prestation et d’exécuter la mission prévue par le contrat de
+      prestation.</p>
+      <p><strong>Article 3. Obligation du Mandataire</strong></p>
+      <p>Le Mandataire s’engage à rechercher des clients professionnels
+      (ci-après dénommés individuellement “le Client” et ensemble
+      “les Clients”), de les conseiller et de leur présenter de façon
+      convaincante les offres du Mandant.</p>
+      <p>Le Mandataire s’engage à représenter le Mandant dans la négociation et
+      la signature des contrats de prestation de services avec les Clients.
+      Le Mandataire dispose alors du pouvoir d’engager le Mandant et de conclure
+      des contrats avec les Clients pour son compte.</p>
+      <p>Le Mandataire est tenu à une obligation générale de diligence et de
+      bonne foi dans l’exécution de son mandat. Il s’engage à faire bénéficier
+      le Mandant de ses connaissances techniques, afin de l’orienter au mieux
+      dans sa stratégie commerciale.</p>
+      <p>Le Mandataire peut représenter librement d’autres prestataires, en ce
+      compris des prestataires pouvant proposer des services identiques ou
+      similaires à ceux proposés par le Mandant.</p>
+      <p><strong>Article 4. Obligation du Mandant</strong></p>
+      <p>Le Mandant s’engage à tout mettre en œuvre afin de faciliter les
+      missions du Mandataire, notamment en lui communiquant toutes les
+      informations, documentations, et communications commerciales utiles à sa
+      mission. Il devra renseigner le Mandataire sur son fonctionnement et sur
+      l’utilisation des Services.</p>
+      <p>Suite à l’acceptation de la mission par le Mandant, ce dernier s’engage
+      à effectuer toute opération et/ou commande conclue par le Mandataire
+      conformément au mandat qui lui est confié, sauf force majeure ou motif
+      d’empêchement légitime dont il devra informer le Mandataire dans un délai
+      raisonnable.</p>
+      <p><em>Le Mandant s’engage à informer le Mandataire de toute demande
+      d’information ou offre commerciale relative aux Services, émise par un
+      client potentiel.</em></p>
+      <p>Le Mandant s’engage à ne pas agir et conclure tout contrat directement
+      avec un Client présenté par le Mandataire, et ce, pendant toute la durée
+      du présent contrat.</p>
+      <p><strong>Article 5. Autorisation d’exploitation des contenus à des fins
+      de promotion du Mandataire</strong></p>
+      <p>Le Mandant autorise le Mandataire, pendant la durée du présent Contrat,
+      à reproduire, représenter, conserver et diffuser les travaux réalisés par
+      le Mandant pendant et indépendamment des Missions réalisées dans le cadre
+      du présent Mandat.</p>
+      <p>Le Mandataire s’engage à exploiter ces contenus uniquement avec
+      l’autorisation du Mandant et à des fins de promotion et de mise en avant
+      des travaux du Mandant.</p>
+      <p><strong>Article 6. Rémunération</strong></p>
+      <p>Le Mandataire s’engage à présenter aux Clients les factures afférentes
+      aux prestations du Mandant et à récolter les paiements dus.</p>
+      <p>Le Mandant accepte que le Mandataire, en contrepartie des prestations
+      prévues au présent contrat, prélève 20% (vingt pour cent) de la somme à
+      titre de commission.</p>
+      <p>La commission sera due pour toute mission inéxécutée en raison d’une
+      défaillance du Mandant.</p>
+      <p>Le Mandataire s’engage à rémunérer le Mandant dans les 30 (trente)
+      jours suivants la réception du paiement du Client.</p>
+      <p>Le versement se fera par virement.</p>
+      <p>Il est convenu entre les Parties que le paiement du Mandant ne peut
+      être dû qu’en cas de paiement effectif de la part du Client.</p>
+      <p>Tout retard de paiement de la part du Mandataire dû à l’absence
+      d’information du Mandant au sujet de ses coordonnées bancaires ne pourra
+      engager la responsabilité du Mandataire.</p>
+      <p><strong>Article 6. Force majeure</strong></p>
+      <p>Si un événement échappant au contrôle du Mandant et/ou du Mandataire,
+      qui ne pouvait être raisonnablement prévu lors de la conclusion du Contrat
+      et dont les effets ne peuvent être évités par des mesures appropriées et
+      empêchent l’exécution des obligations du Mandant et/ou du Mandataire
+      venait à apparaître :</p>
+      <ul>
+        <li>l’exécution de l’obligation est suspendue si l’empêchement est
+        temporaire.</li>
+        <li>le contrat est résolu de plein droit et les Parties sont libérées de
+        leurs obligations si l’empêchement est définitif.</li>
+      </ul>
+      <p>Aucune des Parties ne sera tenue responsable du retard constaté en
+      raison des événements de force majeure.</p>
+      <p>En cas de force majeure constatée par l’une des Parties, celle-ci doit
+      en informer l’autre Partie par écrit dans les meilleurs délais.</p>
+      <p><strong>Article 6. Loi applicable</strong></p>
+      <p>Le présent contrat est régi par la loi française, et tout litige qui en
+      résulterait devra être soumis au tribunal dont dépend le siège social du
+      Mandataire.</p>
+      <p>Fait à MALAKOFF, le {{ date }}, en deux exemplaires originaux.</p>
+      <p>Le Mandant {{ first_name }} {{ last_name }}, (lu et approuvé)</p>
+      <p>Le Mandataire Elior YAICHE, (lu et approuvé)</p>
+
+
+
 		</main>
 	</body>
 </html>
